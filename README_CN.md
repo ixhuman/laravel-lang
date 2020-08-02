@@ -50,14 +50,14 @@ $app->register(Overtrue\LaravelLang\TranslationServiceProvider::class);
 修改项目语言 `config/app.php`：
 
 ```php
-'locale' => 'zh_CN',
+'locale' => 'zh-CN',
 ```
 
 ### Lumen
 
 在 `.env` 文件中修改语言：
 ```
-APP_LOCALE=zh_CN
+APP_LOCALE=zh-CN
 ```
 
 
